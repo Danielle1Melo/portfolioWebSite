@@ -14,13 +14,30 @@
     border: none;
     background-color: var(--gray-950);
     color: var(--gray-200);
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     letter-spacing: 2px;
     transition: all 0.3s;
 }
 
 .links > button:hover{
-    color: var(--default);
+    color: var(--gray-100);
     transition: all 0.3s;
+ 
 }
+
+.links > button::after{
+    content: "";
+    display: block;
+    border-bottom: solid 3px #C80F68;
+    transform: scaleX(0);
+    transform-origin: 10%;
+    transition: transform 1s cubic-bezier( .1, 1, .69, 1);
+}
+
+.links > button:focus::after{
+    transform: scaleX(1);
+    transform-origin: -100%;
+    transition: transform 1s cubic-bezier(.69, 1);
+}
+

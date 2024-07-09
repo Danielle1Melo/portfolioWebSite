@@ -7,7 +7,7 @@ export function HeaderPage() {
   return (
     <div className={styled.container}>
       <div>
-        <Image src={LOGO.MainLogo} alt="" width={60} height={60} />
+        <Image src={LOGO.MainLogo} alt="" width={80} height={80} />
       </div>
       <div className={styled.links}>
         <button>About</button>
