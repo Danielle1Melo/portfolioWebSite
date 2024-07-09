@@ -13,7 +13,7 @@
 .links > button{
     border: none;
     background-color: var(--gray-950);
-    color: var(--gray-100);
+    color: var(--gray-200);
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 2px;
@@ -21,6 +21,6 @@
 }
 
 .links > button:hover{
-    color: var(--gray-400);
+    color: var(--default);
     transition: all 0.3s;
 }
