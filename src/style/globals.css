@@ -1,5 +1,9 @@
 :root {
+  --pink: #C80F68;
+  --danger: #AD1212;
+  --emerald: #10b981;
 
+  
   --gray-950: #030712;
   --gray-900: #111827;
   --gray-800: #1f2937;
@@ -13,7 +17,7 @@
   --gray-50: ##f9fafb ;
   --default: #FFFFFF; 
 
-  --emerald: #10b981;
+  
 }
 
 

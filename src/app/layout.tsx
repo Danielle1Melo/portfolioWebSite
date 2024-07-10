@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Quicksand } from "next/font/google";
 import "../style/globals.css";
+import StatusMenuContextComponent from "@/context/contextSidebar/StatusMenu";
 
-const quicksand = Quicksand({ subsets: ["latin"]});
+const quicksand = Quicksand({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -16,7 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${quicksand.className}`}>{children}</body>
+      <StatusMenuContextComponent>
+        <body className={`${quicksand.className}`}>{children}</body>
+      </StatusMenuContextComponent>
     </html>
   );
 }
