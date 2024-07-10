@@ -1,0 +1,7 @@
+.container {
+    color: var(--default);
+    margin-top: 5rem;
+    background-color: var(--gray-950);
+    padding: 2rem 14rem;
+  }
+  

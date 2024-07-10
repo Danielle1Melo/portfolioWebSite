@@ -3,6 +3,11 @@ import LogoJS from "@/assets/icons/icon-javascript.svg";
 
 import { TechDetails } from "@/lib/types";
 
+export const EXTERNALLINK = {
+  GITHUB: "https://github.com/Danielle1Melo",
+  LINKDIN: "https://www.linkedin.com/in/danielle-silva-de-melo-0013b823a/",
+}
+
 export const NAVLINKS = [
   {
     label: "About",

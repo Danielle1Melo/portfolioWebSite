@@ -5,6 +5,7 @@
 
   
   --gray-950: #030712;
+  --gray-950-blur: #0307127e;
   --gray-900: #111827;
   --gray-800: #1f2937;
   --gray-700: #374151;
@@ -25,11 +26,13 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  
 }
 
 html,
 body {
   max-width: 100vw;
+
   overflow-x: hidden;
 }
 
