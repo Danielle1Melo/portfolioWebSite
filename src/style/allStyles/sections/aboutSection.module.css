@@ -1,6 +1,7 @@
 .container {
   color: var(--default);
   margin-top: 5rem;
+  
   background-color: var(--gray-900);
   padding: 2rem 14rem;
 }
@@ -17,20 +18,23 @@
   width: 900px;
   font-size: 18px;
   letter-spacing: 1px;
+  margin-bottom: 5rem;
 }
 
 .aboutMe {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 2rem;
 }
 
 .aboutMe > p {
-  background-color: var(--gray-200);
+  background-color: var(--pink);
   padding: 5px 15px;
+  margin-top: 4rem;
   border-radius: 10px;
   font-weight: 700;
-  color: var(--pink);
+  color: var( --gray-200);
 }
 
 @media (max-width: 1025px) {

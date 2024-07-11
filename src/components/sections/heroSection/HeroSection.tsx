@@ -6,7 +6,7 @@ import Link from "next/link";
 import { EXTERNALLINK } from "@/lib/data";
 import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
 import Image from "next/image";
-import { LOGO } from "@/utils/logos";
+import Perfil from "../../../assets/icons/perfil.jpeg"
 
 
 export function HeroSection() {
@@ -40,7 +40,7 @@ export function HeroSection() {
         </div>
       </div>
       {/* <div>
-        <Image src='/assets/icons/photo.jpeg' alt="" width={100} height={100}/>
+        <Image src={Perfil} alt="" className={styled.perfilImg}/>
       </div> */}
     </div>
   );

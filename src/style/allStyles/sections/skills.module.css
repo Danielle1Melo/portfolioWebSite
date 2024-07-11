@@ -4,4 +4,69 @@
     background-color: var(--gray-950);
     padding: 2rem 14rem;
   }
+
+  .skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .skills > p{
+    background-color: var(--pink);
+    padding: 5px 40px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: var( --gray-200);
+  }
+
+  .skills > h3 {
+    font-weight: normal;
+    font-size: 22px;
+  }
+
+  .tecnologies{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .labelTecnologies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .labelTecnologies > p {
+    font-weight: normal;
+    font-size: 18px;
+  }
+
+  @media (max-width: 1025px){
+    .container{
+      /* margin-top: 15rem; */
+      width: 100%;
+      padding: 1rem 0.6rem; 
+  }
+
+  .skills > h3 {
+    text-align: center;
+    font-size: 19px;
+  }
+
+  .tecnologies{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+
+
+  }
+}
   
