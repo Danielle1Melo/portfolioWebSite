@@ -21,50 +21,44 @@ export function AboutSection() {
         <div className={styled.sectionText}>
           <h1>Sobre MIM</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-            aperiam mollitia dicta, molestiae nesciunt vero placeat blanditiis
-            nisi soluta porro tenetur ut in sed officia doloribus odit iure!
-            Corrupti, iusto. I'm a passionate, self-proclaimed designer who
-            specializes in full stack development (React.js & Node.js). 
-           
-            I am
-            very enthusiastic about bringing the technical and visual aspects of
-            digital products to life. User experience, pixel perfect design, and
-            writing clear, readable, highly performant code matters to me. I
-            began my journey as a web developer in 2015, and since then, I've
-            continued to grow and evolve as a developer, taking on new
-           
-           
-            I am
-            very enthusiastic about bringing the technical and visual aspects of
-            digital products to life. User experience, pixel perfect design, and
-            writing clear, readable, highly performant code matters to me. I
-            began my journey as a web developer in 2015, and since then, I've
-            continued to grow and evolve as a developer, taking on new
-       
+            Sou desenvolvedora front-end em constante busca por evolução e
+            aprimoramento, com o objetivo de crescer profissionalmente e me
+            tornar uma desenvolvedora full-stack capaz de criar soluções e
+            aplicações eficientes. Atualmente, integro a equipe do Sicoob
+            Credisul como aprendiz de desenvolvimento front-end, onde tenho a
+            oportunidade de aprender e contribuir com um time experiente e
+            dinâmico. Essa experiência tem sido fundamental para meu
+            desenvolvimento técnico e profissional, permitindo-me aplicar os
+            conhecimentos adquiridos e expandir minhas habilidades na prática.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-            aperiam mollitia dicta, molestiae nesciunt vero placeat blanditiis
-            nisi soluta porro tenetur ut in sed officia doloribus odit iure!
-            Corrupti, iusto. I'm a passionate, self-proclaimed designer who
-            specializes in full stack development (React.js & Node.js). 
-           
-            I am
-            very enthusiastic about bringing the technical and visual aspects of
-            digital products to life. User experience, pixel perfect design, and
-            writing clear, readable, highly performant code matters to me. I
-            began my journey as a web developer in 2015, and since then, I've
-            continued to grow and evolve as a developer, taking on new
-           
-           
-            I am
-            very enthusiastic about bringing the technical and visual aspects of
-            digital products to life. User experience, pixel perfect design, and
-            writing clear, readable, highly performant code matters to me. I
-            began my journey as a web developer in 2015, and since then, I've
-            continued to grow and evolve as a developer, taking on new
-       
+            Sou formada em Técnica em Informática pelo Instituto Federal de
+            Ciências e Tecnologia de Rondônia - Campus Vilhena. Durante minha
+            formação, tive a oportunidade de estagiar no Projeto FSLab
+            (Laboratório de Fábricas de Software), onde participei do
+            desenvolvimento de softwares voltados para a comunidade local. Essa
+            experiência me proporcionou uma visão prática do desenvolvimento de
+            software e a importância de criar soluções que atendam às
+            necessidades reais dos usuários.
+          </p>
+          <p>
+            Além disso, estou ampliando minha formação através do curso de
+            Análise e Desenvolvimento de Sistemas pelo IFRO e uma formação Full
+            Stack Javascript pela plataforma da Onebitcode. Esses cursos estão
+            me proporcionando um conhecimento mais profundo e abrangente das
+            tecnologias e práticas de desenvolvimento, preparando-me para
+            enfrentar os desafios do desenvolvimento full-stack.
+          </p>
+          <p>
+            Estou constantemente buscando aprender e aprimorar minhas
+            habilidades, dedicando-me a estudar novas tecnologias, tendências e
+            boas práticas do mercado. Meu objetivo é oferecer soluções eficazes
+            e inovadoras aos projetos em que estou envolvida, contribuindo para
+            o sucesso das equipes e organizações com as quais colaboro. Acredito
+            que a combinação de uma base sólida em front-end, uma formação
+            técnica abrangente e a experiência prática adquirida em diferentes
+            projetos me permitirá alcançar meus objetivos e fazer uma diferença
+            significativa na área de desenvolvimento de software.
           </p>
         </div>
       </div>

@@ -73,7 +73,7 @@ export const TECHNOLOGIES = [
 export const EXPERIENCES = [
   {
     position: "Aprendiz de Desenvolvimento",
-    startDate: "Nov 2024",
+    startDate: "Nov 2023",
     summary: [
       'Atuo como desenvolvedora front-end',
     ],

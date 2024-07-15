@@ -11,7 +11,7 @@ export function ExperienceSection() {
       <div className={styled.experience}>
         <p>Experience</p>
         <h3>
-          Aqui está um rápido resumo da minha experiência mais recentes:
+          Aqui está um rápido resumo da minha experiência mais recente:
         </h3>
       </div>
 

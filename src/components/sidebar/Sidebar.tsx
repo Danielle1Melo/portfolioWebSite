@@ -31,19 +31,30 @@ export default function Sidebar() {
             className={styled.logo}
           />
           <button onClick={() => activeMenu()} className={styled.closedButon}>
-            <X size={40} />
+            <X size={30} />
           </button>
         </div>
-        <div className={styled.links}>
-          <ul>
-            {NAVLINKS.map((link, idx) => {
-              return (
-                <li key={idx}>
-                  <Link href={link.href}>{link.label}</Link>
-                </li>
-              );
-            })}
-          </ul>
+
+        <div className={styled.containerLinks}>
+          <div className={styled.links}>
+            <ul>
+              {NAVLINKS.map((link, idx) => {
+                return (
+                  <li key={idx}>
+                    <Link href={link.href}>{link.label}</Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+          <div>
+            <button
+              className={styled.btnDownload}
+   
+            >
+               <Link href={"/assets/profile/profile.pdf"}>Download CV</Link>
+            </button>
+          </div>
         </div>
       </div>
     </div>
