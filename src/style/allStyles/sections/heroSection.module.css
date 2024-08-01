@@ -12,23 +12,23 @@
 .localization{ 
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
     color: var(--default);
     margin-top: 29px;
 }
 
 .localization > p {
-    font-size: 19px;
+    font-size: 1.188rem;
 }
 
 .btnDownload{
     background-color: var(--gray-950);
     border-radius: 10px;
     border: 1px solid var(--default);
-    padding: 10px 39px;
+    padding: 0.625rem 2.438rem;
     color: var(--default);
     text-align: center;
-    font-size: 15px;
+    font-size: 0.938rem;
     letter-spacing: 1px;
     cursor: pointer;
     transition: all 0.3s;
@@ -70,7 +70,7 @@
 .sectionHero > p{
     color: var(--default);
     width: 1100px;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: normal;
     text-transform: capitalize;
 }
@@ -83,8 +83,8 @@
 
 
 .perfilImg{
-    width: 500px;
-    height: 500px;
+    width: 31.25rem;
+    height:  31.25rem;
     border-radius: 50% ;
     object-fit: cover;
 }
@@ -99,18 +99,18 @@
     }
 
     .perfilImg{
-        width: 300px;
-        height: 300px;
+        width: 18.75rem;
+        height: 18.75rem;
     }
 
     .sectionHero > h1{
-        font-size: 25px;
+        font-size: 1.563rem;
     }
 
     .sectionHero > p{
         width: 100%;
         text-align: justify;
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 }
 

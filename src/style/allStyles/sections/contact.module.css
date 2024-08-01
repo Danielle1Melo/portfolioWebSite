@@ -20,7 +20,7 @@
 
 .headerContact > p {
   background-color: var(--pink);
-  padding: 5px 40px;
+  padding: 0.313rem 40px;
   border-radius: 10px;
   font-weight: 700;
   color: var(--gray-200);

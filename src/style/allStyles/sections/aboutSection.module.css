@@ -17,8 +17,8 @@
 
 .sectionText > p {
   margin-top: 2rem;
-  width: 900px;
-  font-size: 18px;
+  width: 56.25rem;
+  font-size: 1.125rem;
   letter-spacing: 1px;
   font-weight: 100;
 }
@@ -32,7 +32,7 @@
 
 .aboutMe > p {
   background-color: var(--pink);
-  padding: 5px 15px;
+  padding: 0.313rem 0.938rem;
   margin-top: 4rem;
   border-radius: 10px;
   font-weight: 700;
@@ -50,7 +50,7 @@
 @media (max-width: 1025px) {
   .container {
     width: 100%;
-    padding: 15px 15px;
+    padding: 0.938rem;
   }
 
   .photoAbout{
@@ -68,7 +68,7 @@
   }
 
   .sectionText > h1 {
-    font-size: 25px;
+    font-size: 1.563rem;
     text-align: center;
   }
 
@@ -77,6 +77,6 @@
   }
 
   .aboutMe > p {
-    padding: 5px 12px;
+    padding: 0.313rem 0.75rem;
   }
 }
