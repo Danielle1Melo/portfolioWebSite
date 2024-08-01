@@ -1,7 +1,7 @@
 .container {
   color: var(--default);
   margin-top: 5rem;
-  
+  scroll-behavior: smooth;
   background-color: var(--gray-900);
   padding: 2rem 14rem;
 }

@@ -5,6 +5,7 @@
   background-color: var(--gray-950);
   color: var(--default);
   margin-bottom: 3rem;
+  scroll-behavior: smooth;
 }
 
 .headerContact {

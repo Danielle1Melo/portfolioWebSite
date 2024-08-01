@@ -4,7 +4,7 @@
   padding: 2rem 28rem;
   background-color: var(--gray-900);
   color: var(--default);
-  
+  scroll-behavior: smooth;
 }
 
 .experience {

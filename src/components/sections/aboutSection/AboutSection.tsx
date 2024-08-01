@@ -9,7 +9,7 @@ import { LOGO } from "@/utils/logos";
 
 export function AboutSection() {
   return (
-    <div className={styled.container}>
+    <div className={styled.container} id="about">
       <div className={styled.aboutMe}>
         <p>Sobre mim</p>
       </div>

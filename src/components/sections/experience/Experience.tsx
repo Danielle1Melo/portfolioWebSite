@@ -7,7 +7,7 @@ import { LOGO } from "@/utils/logos";
 
 export function ExperienceSection() {
   return (
-    <div className={styled.container}>
+    <div className={styled.container} id="experience">
       <div className={styled.experience}>
         <p>Experience</p>
         <h3>

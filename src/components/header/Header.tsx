@@ -7,6 +7,7 @@ import Link from "next/link";
 import Sidebar from "../sidebar/Sidebar";
 import { List } from "@phosphor-icons/react";
 
+
 import UseStatusMenuCOntext from "@/context/contextSidebar/UseStatusMenuContext";
 
 export function HeaderPage() {
@@ -34,15 +35,17 @@ export function HeaderPage() {
           </div>
           <div>
             <button className={styled.btnDownload}>
-              <Link
-              aria-label="Downlod Resume"
-                download 
-                href="src/utils/Profile.pdf"
+            <a
+                aria-label="Download Resume"
+                href="/Profile.pdf"
+                download
                 target="_blank"
                 rel="noopener noreferrer"
+                style={{ color: 'inherit', textDecoration: 'none' }}
               >
                 Download CV
-              </Link>
+              </a>
+              
             </button>
           </div>
         </div>
