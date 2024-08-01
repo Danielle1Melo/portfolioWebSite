@@ -1,11 +1,7 @@
 "use client";
-import { MapPin } from "@phosphor-icons/react/dist/ssr";
 import styled from "../../../style/allStyles/sections/aboutSection.module.css";
-import Link from "next/link";
-import { EXTERNALLINK } from "@/lib/data";
-import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
 import Image from "next/image";
-import { LOGO } from "@/utils/logos";
+import photoAbout from "../../../assets/icons/photoAbout.jpeg";
 
 export function AboutSection() {
   return (
@@ -16,7 +12,7 @@ export function AboutSection() {
 
       <div className={styled.section}>
         <div className={styled.photo}>
-          <GithubLogo size={100} />
+          <Image src={photoAbout} alt="" className={styled.photoAbout}/>
         </div>
         <div className={styled.sectionText}>
           <h1>Sobre MIM</h1>

@@ -41,7 +41,7 @@ export default function Sidebar() {
               {NAVLINKS.map((link, idx) => {
                 return (
                   <li key={idx}>
-                    <Link href={link.href}>{link.label}</Link>
+                    <Link href={link.href} onClick={activeMenu}>{link.label}</Link>
                   </li>
                 );
               })}
