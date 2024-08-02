@@ -27,13 +27,13 @@ export function AboutSection() {
             aplicações eficientes. Atualmente, integro a equipe do Sicoob
             Credisul como aprendiz de desenvolvimento front-end, onde tenho a
             oportunidade de aprender e contribuir com um time experiente e
-            dinâmico. Essa experiência tem sido fundamental para meu
+            dinâmico, essa experiência tem sido fundamental para meu
             desenvolvimento técnico e profissional, permitindo-me aplicar os
             conhecimentos adquiridos e expandir minhas habilidades na prática.
           </p>
           <p>
             Sou formada em Técnica em Informática pelo Instituto Federal de
-            Ciências e Tecnologia de Rondônia - Campus Vilhena. Durante minha
+            Ciências e Tecnologia de Rondônia - Campus Vilhena, durante minha
             formação, tive a oportunidade de estagiar no Projeto FSLab
             (Laboratório de Fábricas de Software), onde participei do
             desenvolvimento de softwares voltados para a comunidade local. Essa
@@ -44,7 +44,7 @@ export function AboutSection() {
           <p>
             Além disso, estou ampliando minha formação através do curso de
             Análise e Desenvolvimento de Sistemas pelo IFRO e uma formação Full
-            Stack Javascript pela plataforma da Onebitcode. Esses cursos estão
+            Stack Javascript pela plataforma da Onebitcode, esses cursos estão
             me proporcionando um conhecimento mais profundo e abrangente das
             tecnologias e práticas de desenvolvimento, preparando-me para
             enfrentar os desafios do desenvolvimento full-stack.
@@ -52,13 +52,9 @@ export function AboutSection() {
           <p>
             Estou constantemente buscando aprender e aprimorar minhas
             habilidades, dedicando-me a estudar novas tecnologias, tendências e
-            boas práticas do mercado. Meu objetivo é oferecer soluções eficazes
+            boas práticas do mercado, meu objetivo é oferecer soluções eficazes
             e inovadoras aos projetos em que estou envolvida, contribuindo para
-            o sucesso das equipes e organizações com as quais colaboro. Acredito
-            que a combinação de uma base sólida em front-end, uma formação
-            técnica abrangente e a experiência prática adquirida em diferentes
-            projetos me permitirá alcançar meus objetivos e fazer uma diferença
-            significativa na área de desenvolvimento de software.
+            o sucesso das equipes e organizações com as quais colaboro.
           </p>
         </div>
       </div>

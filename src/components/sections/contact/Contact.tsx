@@ -1,10 +1,11 @@
 "use client";
 
-import { EnvelopeSimple, Phone } from "@phosphor-icons/react";
+import { Copy, EnvelopeSimple, Phone } from "@phosphor-icons/react";
 import styled from "../../../style/allStyles/sections/contact.module.css";
 import { EXTERNALLINK } from "@/lib/data";
 import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
 import Link from "next/link";
+import { useState } from "react";
 
 export function ContactSection() {
   return (
