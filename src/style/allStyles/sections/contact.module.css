@@ -45,6 +45,10 @@
   gap: 12px;
 }
 
+.Itenscontacts > h3{
+  color: var(--default);
+}
+
 .socialLinks > P {
   margin-top: 2rem;
   font-size: 20px;
