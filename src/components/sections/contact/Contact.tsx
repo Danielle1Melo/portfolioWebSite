@@ -9,7 +9,7 @@ import { useState } from "react";
 
 export function ContactSection() {
   return (
-    <div className={styled.container}>
+    <div className={styled.container} id="contact">
       <div className={styled.headerContact}>
         <p>Contato</p>
         <h3>

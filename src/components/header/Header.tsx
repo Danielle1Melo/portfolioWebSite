@@ -34,15 +34,16 @@ export function HeaderPage() {
           </div>
           <div>
             <button className={styled.btnDownload}>
-              <Link
-              aria-label="Downlod Resume"
-                download 
-                href="src/utils/Profile.pdf"
+              <a
+                aria-label="Download Resume"
+                href="/Profile.pdf"
+                download
                 target="_blank"
                 rel="noopener noreferrer"
+                style={{ color: "inherit", textDecoration: "none" }}
               >
                 Download CV
-              </Link>
+              </a>
             </button>
           </div>
         </div>

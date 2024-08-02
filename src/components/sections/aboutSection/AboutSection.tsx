@@ -1,22 +1,20 @@
 "use client";
-import { MapPin } from "@phosphor-icons/react/dist/ssr";
+
 import styled from "../../../style/allStyles/sections/aboutSection.module.css";
-import Link from "next/link";
-import { EXTERNALLINK } from "@/lib/data";
-import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
+
+import aboutPhoto from "../../../assets/icons/aboutPhoto.jpeg";
 import Image from "next/image";
-import { LOGO } from "@/utils/logos";
 
 export function AboutSection() {
   return (
-    <div className={styled.container}>
+    <div className={styled.container} id="about">
       <div className={styled.aboutMe}>
         <p>Sobre mim</p>
       </div>
 
       <div className={styled.section}>
         <div className={styled.photo}>
-          <GithubLogo size={100} />
+          <Image src={aboutPhoto} alt="" className={styled.photoAbout} />
         </div>
         <div className={styled.sectionText}>
           <h1>Sobre MIM</h1>
@@ -36,7 +34,7 @@ export function AboutSection() {
             Ciências e Tecnologia de Rondônia - Campus Vilhena, durante minha
             formação, tive a oportunidade de estagiar no Projeto FSLab
             (Laboratório de Fábricas de Software), onde participei do
-            desenvolvimento de softwares voltados para a comunidade local. Essa
+            desenvolvimento de softwares voltados para a comunidade local, essa
             experiência me proporcionou uma visão prática do desenvolvimento de
             software e a importância de criar soluções que atendam às
             necessidades reais dos usuários.
