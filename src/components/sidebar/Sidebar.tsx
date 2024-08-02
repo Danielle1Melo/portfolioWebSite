@@ -48,11 +48,17 @@ export default function Sidebar() {
             </ul>
           </div>
           <div>
-            <button
-              className={styled.btnDownload}
-   
-            >
-               <Link href={"/assets/profile/profile.pdf"}>Download CV</Link>
+            <button className={styled.btnDownload}>
+              <a
+                aria-label="Download Resume"
+                href="/Profile.pdf"
+                download
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "inherit", textDecoration: "none" }}
+              >
+                Download CV
+              </a>
             </button>
           </div>
         </div>
